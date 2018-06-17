@@ -19,7 +19,9 @@ Eturia is a client only application.
 
 4) make
 
-5) Open client/dev.html in your browser.
+5) cd client; python -m SimpleHTTPServer
+
+6) Open http://localhost:8080/dev.html in your Browser.
 
 Introduction
 ==
@@ -30,7 +32,7 @@ Sigil is a type of programming language known as a Lisp which was created (or fo
 
 Currently, Eturia is implemented as a computer program inside of a web browser and can be found at the following URL:
 
-http://busfactor1.ca/bin/eturia/client/dev.html
+http://busfactor1.ca/bin/eturia/client/dev.html (currently down)
 
 Currently, the client is browser only and requires no backend to operate other than a simple web server. But, there are future plans for a communication infrastructure using an innovative back end technology known as Urbit. The first communication technology to the system is going to be some sort of chat program so that users of Eturia will be able to interact with each other and form a community. Future additions also include the ability to load, save and collaborate cores (programs) with other users, and the ability to turn the network of Eturia users into a large, collaborative, distributed network computing grid.
 
